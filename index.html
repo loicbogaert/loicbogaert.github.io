@@ -4,31 +4,33 @@
 	<title>Reservia</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
 
 <header>
 
-<nav>
+
+<nav id="nav1">
+	<img src="img/logo.png" id="logo1">
 	<ul id="navigation">
 	<li class="bluebar"><a id="black" href="#hébergement"><span>Hébergement</span></li></a>
 	<li class="bluebar"><a id="black" href="#activités"><span>Activités</span></li></a>
-	<li><a class="blue" id="inscription" href="#"><span>S'inscrire</span></li></a>
 	</ul>
+	<a class="blue" id="inscription" href="#"><span>S'inscrire</span></a>
 </nav>
 
 
-<img src="img/logo.png" id="logo1">
 
 
 <section id="titres">
 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 <p>En plein centre ville ou en pleine nature</p>
-<section>
+</section>
 
 			<!--Barre de recherche / Navigation -->
 
@@ -36,6 +38,7 @@
 	<div id="button1"><i class="fas fa-map-marker-alt"></i></div>
 		<input type="search" name="search" minlength="3" value="Chercher un lieu">
 	<button id="button2">Rechercher</button>
+	<button id="hidden"><i class="fas fa-search"></i></button>
 </nav>
 
 <nav id="Filtres">
@@ -63,55 +66,55 @@
 			<h2>Hébergements à Marseille</h2>
 			<div id="conteneur">
 				<div class="square">
-					<img class="vignette" src="img/hébergement/4_small/heb1sm.jpg">
+					<a href="#"><img class="vignette" src="img/hébergement/4_small/heb1sm.jpg"></a>
 					<ul>
-						<li class="L1">Auberge la Cannebière</li>
-						<li>Nuit à partir de 25€</li>
+						<li class="L1"><a href="#">Auberge la Cannebière</a></li>
+						<li>Nuit à partir de <b>25€</b></li>
 						<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star" id="grey"></i></li>
 					</ul>
 				</div>
 
 				<div class="square">
-					<img class="vignette" src="img/hébergement/4_small/heb2sm.jpg">
+					<a href="#"><img class="vignette" src="img/hébergement/4_small/heb2sm.jpg"></a>
 					<ul>
-						<li class="L1">Hôtel du port</li>
-						<li>Nuit à partir de 52€</li>
+						<li class="L1"><a href="#">Hôtel du port</a></li>
+						<li>Nuit à partir de 52<b>€</b></li>
 						<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i></li>
 					</ul>
 				</div>
 
 					<div class="square">
-						<img class="vignette" src="img/hébergement/4_small/heb3sm.jpg">
+						<a href="#"><img class="vignette" src="img/hébergement/4_small/heb3sm.jpg"></a>
 					<ul>			
-						<li class="L1">Hôtel Les mouettes</li>
-						<li>Nuit à partir de 76€</li>
+						<li class="L1"><a href="#">Hôtel Les mouettes</a></li>
+						<li>Nuit à partir de 76<b>€</b></li>
 						<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star" id="grey"></i></li>
 					</ul>
 				</div>
 
 						<div class="square">
-						<img class="vignette" src="img/hébergement/4_small/heb4sm.jpg">
+						<a href="#"><img class="vignette" src="img/hébergement/4_small/heb4sm.jpg"></a>
 					<ul>
-						<li class="L1">Hôtel de la mer</li>
-						<li>Nuit à partir de 46€</li>
+						<li class="L1"><a href="#">Hôtel de la mer</a></li>
+						<li>Nuit à partir de 46<b>€</b></li>
 						<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star" id="grey"></i><i class="fas fa-star" id="grey"></i></li>
 					</ul>
 				</div>
 
 				<div class="square">
-					<img class="vignette" src="img/hébergement/4_small/heb5sm.jpg">
+					<a href="#"><img class="vignette" src="img/hébergement/4_small/heb5sm.jpg"></a>
 					<ul>					
-						<li class="L1">Auberge Le Panier</li>
-						<li>Nuit à partir de 23€</li>
+						<li class="L1"><a href="#">Auberge Le Panier</a></li>
+						<li>Nuit à partir de <b>23€</b></li>
 						<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star" id="grey"></i></li>
 					</ul>
 				</div>
 
 					<div class="square">
-						<img class="vignette" src="img/hébergement/4_small/heb6sm.jpg">
+						<a href="#"><img class="vignette" src="img/hébergement/4_small/heb6sm.jpg"></a>
 					<ul>
-						<li class="L1">Hôtel chez Amina</li>
-						<li>Nuit à partir de 96€</li>
+						<li class="L1"><a href="#">Hôtel chez Amina</a></li>
+						<li>Nuit à partir de 96<b>€</b></li>
 						<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i></li>
 					</ul>
 				</div>
@@ -129,28 +132,28 @@
 		</div>
 		<div id="container2">	
 			<div class="square2">
-				<img class="vignettes2" src="img/hébergement/4_small/heb7sm.jpg">
+				<a href="#" class="lienimg"><img class="vignettes2" src="img/hébergement/4_small/heb7sm.jpg"></a>
 				<ul>
-					<li class="L1">Hôtel Le soleil du matin</li>
-					<li>Nuit à partir de 128€</li>
+					<li class="L1"><a href="#">Hôtel Le soleil du matin</a></li>
+					<li>Nuit à partir de 128<b>€</b></li>
 					<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i></li>
 				</ul>
 			</div>
 
 			<div class="square2">
-				<img class="vignettes2" src="img/hébergement/4_small/heb9sm.jpg">
+				<a href="#" class="lienimg"><img class="vignettes2" src="img/hébergement/4_small/heb9sm.jpg"></a>
 				<ul>
-					<li class="L1">Au coeur de l'eau Chambres d'hôtes</li>
-					<li>Nuit à partir de 71€</li>
+					<li class="L1"><a href="#">Au coeur de l'eau Chambres d'hôtes</a></li>
+					<li>Nuit à partir de 71<b>€</b></li>
 					<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star" id="grey"></i></li>
 				</ul>
 			</div>
 
 			<div class="square2">
-				<img class="vignettes2" src="img/hébergement/4_small/heb8sm.jpg">
+				<a href="#" class="lienimg"><img class="vignettes2" src="img/hébergement/4_small/heb8sm.jpg"></a>
 				<ul>
-					<li class="L1">Hôtel Tout bleu et Blanc</li>
-					<li>Nuit à partir de 68€</li>
+					<li class="L1"><a href="#">Hôtel Tout bleu et Blanc</a></li>
+					<li>Nuit à partir de 68<b>€</b></li>
 					<li><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star" id="grey"></i></li>
 				</ul>
 			</div>
@@ -165,34 +168,34 @@
 	<div id="conteneur3">
 				<div class="reduce">
 					<div class="square3 large">
-						<img src="img/activites/4_small/sm1.jpg" class="vignettes3 vlarge">
-						<div class="text L1"><p>Vieux Port</p></div>
+						<a href="#" class="linkimgl"><img src="img/activites/4_small/sm1.jpg" class="vignettes3 vlarge"></a>
+						<div class="text L1"><p><a href="#">Vieux Port</a></p></div>
 					</div>
 				</div>
 				<div class="reduce">
 					<div class="square3 sm">
-						<img src="img/activites/4_small/sm2.jpg" class="vignettes3">
-						<div class="text L1"><p>Fort de Pomègues</p></div>
+						<a href="#" class="linkimg2"><img src="img/activites/4_small/sm2.jpg" class="vignettes3 vsmall"></a>
+						<div class="text L1"><p><a href="#">Fort de Pomègues</a></p></div>
 					</div>
 					<div class="square3 vsm">
-						<img src="img/activites/4_small/sm3.jpg" class="vignettes3">
-						<div class="text L1"><p>îles du Frioul</p></div>
+						<a href="#" class="linkimg2"><img src="img/activites/4_small/sm3.jpg" class="vignettes3 vvsmall"></a>
+						<div class="text L1 tvsm"><p><a href="#">îles du Frioul</a></p></div>
 					</div>
 				</div>
 				<div class="reduce">
 					<div class="square3 large">
-						<img src="img/activites/4_small/sm4.jpg" class="vignettes3 vlarge">
-						<div class="text L1"><p>Parc National des Calanques</p></div>
+						<a href="#" class="linkimgl"><img src="img/activites/4_small/sm4.jpg" class="vignettes3 vlarge"></a>
+						<div class="text L1"><p><a href="#">Parc National des Calanques</a></p></div>
 					</div>
 				</div>
 				<div class="reduce">
 					<div class="square3 vsm">
-						<img src="img/activites/4_small/sm5.jpg" class="vignettes3">
-						<div class="text L1"><p>Notre-Dame-de-la-Garde</p></div>
+						<a href="#" class="linkimg2"><img src="img/activites/4_small/sm5.jpg" class="vignettes3 vvsmall"></a>
+						<div class="text L1 tvsm"><p><a href="#">Notre-Dame-de-la-Garde</a></p></div>
 					</div>
 					<div class="square3 sm">
-						<img src="img/activites/4_small/sm6.jpg" class="vignettes3">
-						<div class="text L1"><p>Parc Longchamp</p></div>
+						<a href="#" class="linkimg2"><img src="img/activites/4_small/sm6.jpg" class="vignettes3 vsmall"></a>
+						<div class="text L1"><p><a href="#">Parc Longchamp</a></p></div>
 					</div>
 				</div>
 		</div>
@@ -226,4 +229,4 @@
 
 <script src="https://kit.fontawesome.com/6868f673a9.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</html><a href="#">
