@@ -23,8 +23,9 @@ nav {
 }
 
 #inscription {
-	width: 15vw;
+	width: 200px;
 	text-align: center;
+	margin-right: 50px;
 }
 
 #navigation{
@@ -42,7 +43,7 @@ nav {
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
-	width: 15vw;
+	width: 200px;
 }
 
 nav a {
@@ -63,7 +64,7 @@ nav a {
 
 nav span {
 	display: block;
-	padding-top: 40px;
+	padding-top: 50px;
 }
 
 .blue {
@@ -90,6 +91,7 @@ nav span {
 #titres h1{
 	margin-top: 30px;
 	margin-left: 20px;
+	margin-bottom: 10px;
 	font-size: 1.5em;
 }
 
@@ -113,7 +115,7 @@ nav span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 40px;
+	height: 45px;
 	width: 40px;
 	background-color:#F2F2F2;
 	border-bottom-left-radius: 15px;
@@ -121,7 +123,7 @@ nav span {
 }
 
 #searchbar input {
-	height: 40px;
+	height: 45px;
 	width: 15vw;
 	font-weight: bolder;
 	min-width: 150px;
@@ -131,7 +133,7 @@ nav span {
 
 
 #button2 {
-	height: 40px ;
+	height: 45px ;
 	width: 120px ;
 	color: white;
 	background-color:  #0065FC;
@@ -140,10 +142,12 @@ nav span {
 	border-color: white;
 	margin-left: -4.5px;
 	border: none;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 #hidden {
-	height: 40px ;
+	height: 45px ;
 	width: 40px ;
 	color: white;
 	background-color:  #0065FC;
@@ -204,12 +208,11 @@ nav span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 12vw;
-	min-width: 130px;
+	width: 150px;
 	height: 40px;
 	background-color: white;
 	font-weight: bolder;
-	font-size: 1em;
+	font-size: 1.2em;
 	border: none;
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
@@ -217,12 +220,15 @@ nav span {
 
 
 .iconbutton:hover {
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 #animaux {
-	width: 17.5vw;
-	min-width: 170px;
+	width: 210px;
+}
+
+#family {
+	width: 115px;
 }
 
 
@@ -331,7 +337,6 @@ overflow: hidden;
 }
 
 .L1 a{
-	font-weight: bold;
 	color: black;
 	text-decoration: none;
 }
@@ -348,7 +353,6 @@ overflow: hidden;
 }
 
 #hébergement p {
-	font-weight: bold;
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
@@ -992,6 +996,7 @@ footer ul {
 
 .L1 {
 	font-size: 20px;
+	font-weight: bold;
 }
 
 
@@ -1014,6 +1019,10 @@ footer ul {
 
 #activités {
 	overflow: visible;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 #conteneur3 {
