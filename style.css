@@ -388,7 +388,7 @@ overflow: hidden;
 	width: 30%;
 	height:130%;
 	border-radius: 20px;
-	min-height: 500px;
+	min-height: 700px;
 	min-width: 300px;
 }
 
@@ -647,8 +647,10 @@ VERSION MOBILE
 }
 
 #inscription {
-	margin-right: -50px;
+	margin-right: 0px;
+	width: 70px;
 }
+
 
 .bluebar a {
 	text-decoration: none;
